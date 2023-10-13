@@ -1,12 +1,16 @@
 import React, { useContext } from 'react'
 import ItemFour from './ItemFour'
+import { userContext } from '../Context/Context';
 
 
 function ItemThree() {
 
+    const value = useContext(userContext)
+
     return (
         <div>
-            <h1>Counter: </h1>
+            <h1> Component 3 {value} </h1>
+            <ItemFour />
         </div>
     );
 }
