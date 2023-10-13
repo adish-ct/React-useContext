@@ -1,0 +1,13 @@
+.nav-bar {
+  text-align: center;
+}
+.nav-content {
+  display: flex;
+  gap: 5em;
+  justify-content: center;
+  padding: 10px;
+  list-style-type: none;
+}
+.nav-link {
+  text-decoration: none;
+}
