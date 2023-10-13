@@ -1,9 +1,7 @@
-import React, { useContext } from 'react'
-import { useState, useEffect, useRef } from 'react'
-import ItemTwo from './ItemTwo'
-import Context, { userContext } from '../Context/Context'
+import React from 'react'
+import Context from '../Context/Context'
 
-function ItemOne(props) {
+function ItemOne() {
 
     return (
         <>

@@ -4,14 +4,13 @@ import { userContext } from '../Context/Context'
 
 function ItemTwo() {
 
-    const name = useContext(userContext)
-    console.log(name);
+    const counter = useContext(userContext)
 
     return (
         <>
             <h1>Component 2</h1>
-            <h2>Hello name :  {name} </h2>
-
+            <h2> counter :  {counter} </h2>
+            <ItemThree />
         </>
     )
 }

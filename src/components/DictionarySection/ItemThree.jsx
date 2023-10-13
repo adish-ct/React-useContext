@@ -9,7 +9,7 @@ function ItemThree() {
 
     return (
         <div>
-            <h1> Component 3 {value} </h1>
+            <h1> Component 3 </h1>
             <ItemFour />
         </div>
     );
